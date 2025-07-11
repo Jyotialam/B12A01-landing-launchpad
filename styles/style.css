@@ -1,0 +1,129 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+/* signup button */
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.header{
+  background-image: url('../Assets/Hero-bg.png');
+  background-position: 100%;
+}
+
+/* nav syles */
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+/* nav-title */
+.nav-logo{
+  font-weight: 900px ;
+  font-size:34px ;
+  color: #4E47FF;
+}
+
+nav ul li{
+  list-style: none;
+}
+
+/* button signup */
+.btn-primary{
+  background-color: #4E47FF;
+  font-weight: bold;
+  color:  #FFFFFF;
+  padding: 12px 36px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  /* position: relative; */
+
+}
+nav li .btn-primary:hover{
+  background-color: aqua;
+}
+/* banner section */
+
+.banner{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  max-width: 905px;
+  max-height: 223.59px;
+  margin: auto;
+  /* position: relative ; */
+  gap: 37px;
+}
+.banner-title{
+  justify-content: center;
+  width: 905px;
+  height: auto;
+  font-weight: bold ;
+  color: #252432;
+  font-size: 65px ;
+  /* font-family: raleway; */
+  
+}
+.btn-secondery{
+  display: block;
+  justify-content: center;
+  margin: 0 auto;
+  background-color: #4E47FF;
+  font-weight: bold;
+  color:  #FFFFFF;
+  padding: 12px 36px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  /* position: relative; */
+}
+.banner .btn-secondery:hover{
+   background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header-container{
+    display: flex;
+    width: 1140px; */
+/* .header{
+  background-image: url('../Assets/Hero-bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+} */
+
+
+/* .nav-section{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    /* gap: auto; */
+    /* width: 1140px;
+ /* } */ 
+
+
+
+
+/* .header a{
+    text-decoration: none;
+/* } */ 
