@@ -1,11 +1,11 @@
-
+/* logo font */
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /* font-weight: <weight>; */
   font-style: normal;
 }
-/* signup button */
+/* body font */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -26,8 +26,8 @@ nav{
   margin: 0px 200px;
 }
 
-/* nav-title */
-.nav-logo{
+/* nav-logo */
+.raleway-normal{
   font-weight: 900px ;
   font-size:34px ;
   color: #4E47FF;
@@ -90,6 +90,74 @@ nav li .btn-primary:hover{
 .banner .btn-secondery:hover{
    background-color: aqua;
 }
+/* Action section */
+.action{
+  max-width: 900px;
+  margin: 50px 0 ;
+  padding: 20px;
+}
+main{
+  max-width: 1140px;
+  max-width: 380px;
+  margin: 0 auto; 
+}
+
+.pre-section{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  /* flex-wrap: wrap; */
+  /* margin: 0 auto; */
+
+}
+
+/* action section */
+.text-area{
+  max-width: 517px;
+  max-height: 203px;
+  padding: 130px 150px;
+  gap: 220px;
+}
+.text-area h2{
+  width: 517px;
+  height: 49px;
+  color: #252432;
+  display: inline;
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.text-area p{
+  color: #252432;
+  font-size: 16px;
+  margin-bottom: 15px;
+
+}
+.preview-btn{
+  display: flex;
+  background-color: #4E47FF;
+  font-weight: bold;
+  color:  #FFFFFF;
+  padding: 12px 36px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  max-width: 229px;
+  max-height: 48px;
+  
+}
+.preview-btn:hover{
+  background-color: aqua;
+
+}
+.img2{
+  width: 403px ;
+  height: 328px ;
+  border-radius: 48px;
+}
 
 
 
@@ -102,28 +170,6 @@ nav li .btn-primary:hover{
 
 
 
-/* .header-container{
-    display: flex;
-    width: 1140px; */
-/* .header{
-  background-image: url('../Assets/Hero-bg.png');
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
-} */
-
-
-/* .nav-section{
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    /* margin: 0 auto; */
-    /* gap: auto; */
-    /* width: 1140px;
- /* } */ 
 
 
 
-
-/* .header a{
-    text-decoration: none;
-/* } */ 
