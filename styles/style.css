@@ -114,11 +114,30 @@ main{
 }
 
 /* action section */
+
+.Action-Section{
+  align-content: center;
+  width: 1140px;
+  height: 380px;
+  /* background-color: white; */
+  /* background-color: antiquewhite; */
+
+}
+.action{
+  margin: 300px 0px 116px 0px ;
+  justify-content: space-between;
+  width: 1140px;
+  height: 380px;
+  background-color: white;
+
+}
 .text-area{
+  align-items: top left;
   max-width: 517px;
   max-height: 203px;
-  padding: 130px 150px;
-  gap: 220px;
+  padding: 0px 20px 0px 0px ;
+  gap: 50px;
+  margin:  62.5px 62.5px 62.5px 0px;
 }
 .text-area h2{
   width: 517px;
@@ -141,8 +160,8 @@ main{
   background-color: #4E47FF;
   font-weight: bold;
   color:  #FFFFFF;
-  padding: 12px 36px;
-  font-size: 16px;
+  padding: 15px 40px;
+  font-size: 14px;
   border-radius: 10px;
   border: none;
   max-width: 229px;
@@ -159,8 +178,50 @@ main{
   border-radius: 48px;
 }
 
+/* Production users section */
 
+.user-section{
+  max-width: 1140px;
+  /* max-height: 306px; */
+  text-align: center;
+  background-color: rgb(229, 231, 255);
+  margin: auto;
+  padding: 50px 30px;
+  
+}
 
+.user-section-content{
+  text-align: center;
+  margin-top: 40px;
+}
+.user-section-content h3{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.datas{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.data{
+  /* flex: 1; */
+  min-width: 0px;
+  margin: 10px;
+  text-align: center;
+}
+.data h2{
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  max-width: 162px;
+}
+.data p{
+  font-size: 20px;
+  font-weight: 300px;
+  max-width: 120px;
+  margin: 5px 0 0;
+}
 
 
 
