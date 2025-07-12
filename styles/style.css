@@ -19,16 +19,17 @@
   padding: 30px;
 }
 
-/* nav syles */
-nav{
+/* nav styles */
+.nav-1{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
   margin: 0px 200px;
 }
 
 /* nav-logo */
 .raleway-normal{
+  text-align: left;
   font-weight: 900px ;
   font-size:34px ;
   color: #4E47FF;
@@ -42,20 +43,18 @@ nav ul li{
 .btn-primary{
   background-color: #007bff;
   font-weight: bold;
-  color:  #FFFFFF;
   padding: 12px 36px;
   font-size: 16px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  /* position: relative; */
-
 }
+
 nav li .btn-primary:hover{
   background-color: #0056b3;
 }
-/* banner section */
 
+/* banner section */
 .banner{
   display: block;
   align-items: center;
@@ -63,7 +62,6 @@ nav li .btn-primary:hover{
   max-width: 905px;
   max-height: 223.59px;
   margin: auto;
-  /* position: relative ; */
   gap: 37px;
 }
 .banner-title{
@@ -73,9 +71,8 @@ nav li .btn-primary:hover{
   font-weight: bold ;
   color: #252432;
   font-size: 65px ;
-  /* font-family: raleway; */
-  
 }
+
 .btn-secondery{
   display: block;
   justify-content: center;
@@ -88,7 +85,7 @@ nav li .btn-primary:hover{
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  /* position: relative; */
+
 }
 .banner .btn-secondery:hover{
    background-color: #0056b3;
@@ -121,8 +118,6 @@ main{
   justify-content: space-between;
   align-items: center;
   padding-bottom: 30px;
-  /* flex-wrap: wrap; */
-  /* margin: 0 auto; */
   background-color: #F5F8FF;
 
 }
@@ -321,11 +316,8 @@ small{
   gap: 40px;
   max-width: 1140px;
   margin: 0 auto;
-  /* border: 2px solid #007bff33; */
   padding: 0 20px;
   box-sizing: border-box;
-  /* height: 300px; */
-
 }
 
 .contact-text {
@@ -390,17 +382,69 @@ small{
   background-color: #0056b3;
 }
 
+/* footer section */
 
+nav{
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+nav li{
+  color: #8987A1;
+  font-size: 16px;
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+  width: 65px;
+  height: 26px;
+  padding: 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 401px;
+  height: 24px;
+}
 
+nav li a{
+  text-decoration: none;
+}
+nav li:hover{
+  background-color:gainsboro;
+}
 
+/* Logo title */
+.inter-normal footer{
+  color: #4E47FF;
+  font-size: 100px;
+  font-weight: bolder;
+  width: 291px;
+  height: 121px;
+  margin: 0px auto;
+  text-align: center;
+  letter-spacing: 0px;
+}
 
+/* Background color */
+.secondery-bg {
+  background-color:#FFFFFF;
+  /* color: #ffffff; */
+  padding: 80px 20px;
+  text-align: center;
+}
 
+/* Container center and max-width */
+.footer-container {
+  max-width: 1440px;
+  max-height: 428px;
+  margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
+/* Subtitle text */
+.footer-subtitle {
+  font-size: 16px;
+  text-align: center;
+  margin: 20px auto 0 auto;
+  max-width: 531px;
+  max-height: 48px;
+  color: #8987A1;
+}
